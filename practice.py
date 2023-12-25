@@ -131,5 +131,11 @@ fri_sales = "95"
 #TODO: assign the total sales to a string with this format: This week's total sales: xxx
 # You will probably need to write some lines of code before the assigning statement.
 
-result_string = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
-print(f"This week's total sales: {result_string}")
+# result_string = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+# print(f"This week's total sales: {result_string}")
+
+# print("sebastian thrun".title())
+# full_name = "sebastian thrun"
+# print(full_name.islower())
+
+# print("one fish, two fish, green fish, blue fish".count('fish'))
