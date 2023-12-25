@@ -63,8 +63,73 @@
 # comparision_result = san_francisco_pop_density > rio_de_janeiro_pop_density
 # print(comparision_result)
 
-my_string = "this is a string"
-my_string2 = 'this is also a string'
+# my_string = "this is a string"
+# my_string2 = 'this is also a string'
 
-this_string = 'Simon\'s skateboard is in the garage'
-print(this_string)
+# this_string = 'Simon\'s skateboard is in the garage'
+# print(this_string)
+
+# single_quote_string = '"This is a quote itself"'
+
+# double_quote_string = "Simon's skateboard is in the garage"
+
+# print(single_quote_string * 5)
+# print(len(double_quote_string))
+# print(double_quote_string[6])
+# print(double_quote_string[5])
+
+# print(len("ababa")/len("ab"))
+
+# Quiz: Fix the Quote
+# The line of code in the following quiz will cause a SyntaxError, thanks to the misuse of quotation marks. First run it with Test Run to view the error message. Then resolve the problem so that the quote (from Henry Ford is correctly assigned to the variable ford_quote.
+
+# # TODO: Fix this string!
+# ford_quote = 'Whether you think you can, or you think you can\'t--you\'re right.'
+# print(ford_quote)
+
+# username = "Kinari"
+# timestamp = "04:50"
+# url = "http://petshop.com/pets/mammals/cats"
+
+# TODO: write a log message using the variables above.
+# The message should have the same format as this one:
+# "Yogesh accessed the site http://petshop.com/pets/reptiles/pythons at 16:20."
+
+# message = f"{username} accessed the site {url} at {timestamp}."
+# print(message) #replace "" with your code
+
+# # Quiz: len()
+# # Use string concatenation and the len() function to find the length of a certain movie star's actual full name. Store that length in the name_length variable. Don't forget that there are spaces in between the different parts of a name!
+
+# given_name = "William"
+# middle_names = "Bradley"
+# family_name = "Pitt"
+# # Todo: calculate how long this name is
+# name_length = len(given_name) + len(" ") + len(middle_names) + len(" ") + len(family_name)
+# print(name_length) #replace `None` with your code
+
+# # Now we check to make sure that the name fits within the driving license character limit
+# # Uncomment the code below. You don't need to make changes to the code.
+
+# driving_license_character_limit = 28
+# print(name_length <= driving_license_character_limit)
+
+# print(type(4))
+# print(type(3.7))
+# print(type('this'))
+# print(type(True))
+
+# print("0" + 5)
+# print("5" + 0)
+
+mon_sales = "121"
+tues_sales = "105"
+wed_sales = "110"
+thurs_sales = "98"
+fri_sales = "95"
+
+#TODO: assign the total sales to a string with this format: This week's total sales: xxx
+# You will probably need to write some lines of code before the assigning statement.
+
+result_string = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+print(f"This week's total sales: {result_string}")
