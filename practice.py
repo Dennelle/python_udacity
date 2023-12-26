@@ -156,19 +156,21 @@ fri_sales = "95"
 # # print(new_str.split())
 # print(new_str.split(' ', 4))
 
-verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+# verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
 
-# print(verse)
-len_verse = len(verse.split())
-print(len(verse))
-print(verse.index('and'))
-print(verse.rindex('you'))
-print(verse.count('you'))
+# # print(verse)
+# len_verse = len(verse.split())
+# print(len(verse))
+# print(verse.index('and'))
+# print(verse.rindex('you'))
+# print(verse.count('you'))
 
-verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
-print(verse, "\n")
+# verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+# print(verse, "\n")
 
-print("Verse has a length of {} characters.".format(len(verse)))
-print("The first occurence of the word 'and' occurs at the {}th index.".format(verse.find('and')))
-print("The last occurence of the word 'you' occurs at the {}th index.".format(verse.rfind('you')))
-print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
+# print("Verse has a length of {} characters.".format(len(verse)))
+# print("The first occurence of the word 'and' occurs at the {}th index.".format(verse.find('and')))
+# print("The last occurence of the word 'you' occurs at the {}th index.".format(verse.rfind('you')))
+# print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
+
+# Data structures are containers or collections of data that organize and group data types together in different ways. You can think of data structures as file folders that have organized files of data inside them.
