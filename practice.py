@@ -174,3 +174,15 @@ fri_sales = "95"
 # print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
 
 # Data structures are containers or collections of data that organize and group data types together in different ways. You can think of data structures as file folders that have organized files of data inside them.
+
+# greeting = "Hello There!"
+# print('her' in greeting, 'her' not in greeting)
+
+# VINIX = ['C', 'MA', 'BA', 'PG', 'CSCO', 'VZ', 'PFE', 'HD', 'INTC', 'T', 'V', 'UNH', 'WFC', 'CVX', 'BAC', 'JNJ', 'GOOGL', 'GOOG', 'BRK.B', 'XOM', 'JPM', 'FB', 'AMZN', 'MSFT', 'AAPL']
+
+# print(VINIX[3])
+# print("GE" in VINIX)
+# print("MSFT" in VINIX)
+
+# greeting = "Hello There"
+# print(greeting[1])
