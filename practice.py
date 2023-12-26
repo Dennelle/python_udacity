@@ -136,6 +136,39 @@ fri_sales = "95"
 
 # print("sebastian thrun".title())
 # full_name = "sebastian thrun"
-# print(full_name.islower())
+# print(full_name.center())
 
 # print("one fish, two fish, green fish, blue fish".count('fish'))
+
+# A method in Python behaves similarly to a function. Methods actually are functions that are called using dot notation.
+
+# Methods are specific to the data type for a particular variable. So there are some built-in methods that are available for all strings, different methods that are available for all integers, etc.
+
+# Each of these methods accepts the string itself as the first argument of the method. However, they also could receive additional arguments, that are passed inside the parentheses.
+
+# No professional has all the methods memorized, which is why understanding how to use documentation and find answers is so important. Gaining a strong grasp of the foundations of programming will allow you to use those foundations to use documentation to build so much more than someone who tries to memorize all the built-in methods in Python.
+
+# The split method has two arguments (sep and maxsplit). The sep argument stands for "separator". It can be used to identify how the string should be split up (e.g., whitespace characters like space, tab, return, newline; specific punctuation (e.g., comma, dashes)). If the sep argument is not provided, the default separator is whitespace.
+
+# True to its name, the maxsplit argument provides the maximum number of splits. The argument gives maxsplit + 1 number of elements in the new list, with the remaining string being returned as the last element in the list. You can read more about these methods in the Python documentation too.
+
+# new_str = "The cow jumped over the moon."
+# # print(new_str.split())
+# print(new_str.split(' ', 4))
+
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+
+# print(verse)
+len_verse = len(verse.split())
+print(len(verse))
+print(verse.index('and'))
+print(verse.rindex('you'))
+print(verse.count('you'))
+
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+print(verse, "\n")
+
+print("Verse has a length of {} characters.".format(len(verse)))
+print("The first occurence of the word 'and' occurs at the {}th index.".format(verse.find('and')))
+print("The last occurence of the word 'you' occurs at the {}th index.".format(verse.rfind('you')))
+print("The word 'you' occurs {} times in the verse.".format(verse.count('you')))
