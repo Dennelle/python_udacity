@@ -280,4 +280,30 @@ list2 = list(set2)
 
 # A dictionary is a mutable data type that stores mappings of unique keys to values. Here's a dictionary that stores elements and their atomic numbers.
 
-elements = {'hydrogen':1, 'helium':2, 'carbon':3}
+# elements = {'hydrogen':1, 'helium':2, 'carbon':3}
+# random_dict = {'abc': 1, 5:'hello'}
+
+# print(elements['hydrogen'])
+
+# elements['lithium'] = 3
+# print(elements)
+
+# print('carbon' in elements)
+# print(elements.get('dilithium'))
+
+# n = elements.get('dilithium')
+# print(n is None)
+# print(n is not None)
+
+# print(elements.get('kryptonite', 'There\'s no such element'))
+
+# a = [1, 2, 3]
+# b = a
+# c = [1, 2, 3]
+
+# print(a == b)
+# print(a is b)
+# print(a == c)
+# print(a is c)
+
+animals = {'dogs': [20, 10, 15, 8, 32, 15], 'cats': [3,4,2,8,2,4], 'rabbits': [2, 3, 3], 'fish': [0.3, 0.5, 0.8, 0.3, 1]}
