@@ -122,11 +122,11 @@
 # print("0" + 5)
 # print("5" + 0)
 
-mon_sales = "121"
-tues_sales = "105"
-wed_sales = "110"
-thurs_sales = "98"
-fri_sales = "95"
+# mon_sales = "121"
+# tues_sales = "105"
+# wed_sales = "110"
+# thurs_sales = "98"
+# fri_sales = "95"
 
 #TODO: assign the total sales to a string with this format: This week's total sales: xxx
 # You will probably need to write some lines of code before the assigning statement.
@@ -186,3 +186,39 @@ fri_sales = "95"
 
 # greeting = "Hello There"
 # print(greeting[1])
+
+# my_list = [1, 2, 3, 4]
+# print(my_list)
+# my_list[0] = "one"
+# print(my_list)
+
+# month = 8
+# days_in_month = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+# # TODO: replace None with appropriate code
+# # Use list indexing to determine the number of days in `month`
+# num_days = days_in_month[month-1]
+# print(num_days)
+
+# eclipse_dates = ['June 21, 2001', 'December 4, 2002', 'November 23, 2003',
+#                  'March 29, 2006', 'August 1, 2008', 'July 22, 2009',
+#                  'July 11, 2010', 'November 13, 2012', 'March 20, 2015',
+#                  'March 9, 2016']
+
+# # TODO: Replace None with appropriate code
+# # Modify this code so it prints the last three elements of the list
+# length_of_dates = len(eclipse_dates)
+# print(length_of_dates)
+# last_three_dates = eclipse_dates[-3:]
+# print(last_three_dates)
+
+# name = 'Jim'
+# student = name
+# name = 'Tim'
+
+# print(name)
+# print(student)
+
+location = (13.4125, 103.866667)
+print("Latitude:", location[0])
+print("Longitude:", location[1])
