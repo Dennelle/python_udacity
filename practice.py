@@ -219,6 +219,31 @@
 # print(name)
 # print(student)
 
-location = (13.4125, 103.866667)
-print("Latitude:", location[0])
-print("Longitude:", location[1])
+# location = (13.4125, 103.866667)
+# print("Latitude:", location[0])
+# print("Longitude:", location[1])
+
+# dimensions = 52, 40, 100
+# length, width, height = dimensions
+# print("The dimensions are {}, {}, {}" .format(length, width, height))
+# print("The dimensions are {}" .format(dimensions))
+
+# length, width, height = 52, 40, 100
+# print("The dimensions are {}, {}, {}" .format(length, width, height))
+
+# A set is a data type for mutable unordered collections of unique elements. One application of a set is to quickly remove duplicates from a list.
+
+# numbers = [99, 100, 1, 3, 4, 99, 100]
+# unique_numbers = set(numbers)
+# print(unique_numbers)
+
+# fruits = {"apple", "banana", "orange", "grape"}
+# print("watermelon" in fruits)
+
+# fruits.add("watermelon")
+# print(fruits)
+
+# fruits.pop()
+# print(fruits)
+# fruits.pop()
+# print(fruits)
