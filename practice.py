@@ -306,4 +306,16 @@ list2 = list(set2)
 # print(a == c)
 # print(a is c)
 
-animals = {'dogs': [20, 10, 15, 8, 32, 15], 'cats': [3,4,2,8,2,4], 'rabbits': [2, 3, 3], 'fish': [0.3, 0.5, 0.8, 0.3, 1]}
+# animals = {'dogs': [20, 10, 15, 8, 32, 15], 'cats': [3,4,2,8,2,4], 'rabbits': [2, 3, 3], 'fish': [0.3, 0.5, 0.8, 0.3, 1]}
+# room_numbers = {
+#     ('Freddie', 'Jen'): 403,
+#     ('Ned', 'Keith'): 391,
+#     ('Kristin', 'Jazzmyne'): 411,
+#     ('Eugene', 'Zach'): 395
+# }
+# print(room_numbers)
+
+elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'},
+            'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
+# TODO: Add an 'is_noble_gas' entry to the hydrogen and helium dictionaries
+# hint: helium is a noble gas, hydrogen isn't
